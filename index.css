@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+}
+
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 155px;
+    height: 110px;
+    background-color: black;
+    font-family: 'Cursed Timer Ulil' ;
+    color: #F94F6D;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+#points-btn {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 7px;
+    background-color: #1B244A;
+    border-color: #9AABD8;
+    color: #9AABD8;
+    border-style:solid;
+    font-family: 'Cursed Timer Ulil' ;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#points-btn:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+}
+
+#points-btn:focus {outline:0;}
+
+#rst-btn {
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    border-width: 2px;
+    border-radius: 7px;
+    background-color: #1B244A;
+    border-color: darkred;
+    color: darkred;
+    border-style:solid;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#rst-btn:hover {
+    background-color: darkred;
+    color: #1B244A;
+}
+
+#rst-btn:focus {outline:0;}
